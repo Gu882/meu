@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Animal Resgate | Adoção</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="icon" href="../imagens/logo.png">
+
+</head>
+
+<body>
+
+<header>
+
+    <img src="../imagens/logo.png" alt="Logo Animal Resgate">
+
+    <h1>🐶 Adoção Responsável</h1>
+
+    <p>Encontre um novo melhor amigo.</p>
+
+    <nav>
+
+        <a href="../index.html">🏠 Início</a>
+        <a href="resgate.html">🚑 Resgate</a>
+        <a href="adocao.html">🐶 Adoção</a>
+        <a href="contato.html">📞 Contato</a>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h2>Animais Disponíveis para Adoção</h2>
+
+    <p>
+
+        Conheça alguns dos animais que estão esperando
+        por um lar cheio de amor.
+
+    </p>
+
+</section>
+
+<section class="cards">
+
+    <div class="card">
+
+        <img src="../imagens/thor.jpg" alt="Cachorro Thor">
+
+        <h3>🐶 Thor</h3>
+
+        <p>
+            Macho • 2 anos • Muito brincalhão e dócil.
+        </p>
+
+  <button class="botao" onclick="abrirModal(
+'Thor',
+'../imagens/thor.jpg',
+'Macho • 2 anos • Muito brincalhão e dócil. Vacinado, castrado e pronto para adoção.'
+)">
+Tenho Interesse
+</button>
+
+    </div>
+
+    <div class="card">
+
+        <img src="../imagens/mia.jpg" alt="Gata Mia">
+
+        <h3>🐱 Mia</h3>
+
+        <p>
+            Fêmea • 1 ano • Carinhosa e tranquila.
+        </p>
+
+  <button class="botao" onclick="abrirModal(
+'Mia',
+'../imagens/mia.jpg',
+'Fêmea • 1 ano • Muito carinhosa, tranquila e pronta para adoção.'
+)">
+Tenho Interesse
+</button>
+
+    </div>
+
+</section>
+
+</section>
+<section class="sobre">
+
+    <h2>❤️ Por que adotar?</h2>
+
+    <p>
+
+        A adoção responsável salva vidas, reduz o abandono e oferece
+        uma nova oportunidade para animais que passaram por situações difíceis.
+        Ao adotar, você ganha um companheiro fiel e ajuda a construir um mundo melhor.
+
+    </p>
+
+</section>
+
+<section class="como-funciona">
+
+    <h2>Como funciona a adoção?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>📋 Escolha</h3>
+
+            <p>
+                Conheça os animais disponíveis e escolha aquele que combina com você.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>📞 Contato</h3>
+
+            <p>
+                Entre em contato conosco para iniciar o processo de adoção.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🏡 Novo Lar</h3>
+
+            <p>
+                Após a aprovação, o animal poderá ir para seu novo lar com segurança.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>🐾 Animal Resgate</h3>
+
+    <p>
+        Adote com responsabilidade. Um pequeno gesto pode mudar uma vida.
+    </p>
+
+    <hr>
+
+    <p>
+        📧 contato@animalresgate.com |
+        ☎ (00) 00000-0000
+    </p>
+
+    <p>
+        © 2026 Animal Resgate - Todos os direitos reservados.
+    </p>
+<div id="modalAnimal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="fechar" onclick="fecharModal()">&times;</span>
+
+        <img id="fotoAnimal" src="" alt="Animal">
+
+        <h2 id="nomeAnimal"></h2>
+
+        <p id="descricaoAnimal"></p>
+
+        <a href="contato.html" class="botao">
+            Quero Adotar
+        </a>
+
+    </div>
+
+</div>
+
+</footer>
+
+<script src="../script.js"></script>
+
+</body>
+</html>
