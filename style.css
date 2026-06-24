@@ -319,5 +319,53 @@ section{
         opacity:1;
         transform:translateY(0);
     }
+/* Formulário de Resgate */
 
+form{
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0 8px;
+}
+
+form input,
+form select,
+form textarea{
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+form textarea{
+    min-height: 140px;
+    resize: vertical;
+}
+
+form button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: #3d9140;
+}
 }
